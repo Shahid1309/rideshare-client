@@ -41,14 +41,7 @@ export default function ProfilePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-green-50 to-teal-50 py-8 px-4">
       <div className="max-w-4xl mx-auto">
-        {/* Header Section */}
-        {/* <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-24 h-24 bg-gradient-to-r from-emerald-500 to-green-600 rounded-full mb-6 text-white text-3xl font-bold shadow-lg ring-4 ring-emerald-100">
-            {user?.name?.charAt(0).toUpperCase()}
-          </div>
-          <h1 className="text-4xl font-bold text-gray-900 mb-3 tracking-tight">My Profile</h1>
-          <p className="text-gray-600 text-lg">Manage your personal information</p>
-        </div> */}
+        
 
         {user ? (
           <div className="bg-white rounded-3xl shadow-2xl border border-gray-100 overflow-hidden backdrop-blur-sm">
