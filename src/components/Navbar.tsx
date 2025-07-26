@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import { useAuth } from '@/app/context/AuthContext';
-import logo from "../../public/Images/logo-svg.png"
+import logo from "../../public/Images/newlogsvg.svg"
 import Image from 'next/image';
 
 export default function Navbar() {
@@ -38,7 +38,7 @@ export default function Navbar() {
               className="text-2xl font-black bg-gradient-to-r from-indigo-600 via-blue-600 to-cyan-600 bg-clip-text text-transparent hover:from-indigo-700 hover:via-blue-700 hover:to-cyan-700 transition-all duration-300 hover:scale-105 tracking-tight drop-shadow-sm"
               onClick={closeMobileMenu}
             >
-              <Image src={logo} alt='CoRide' className='w-16 h-16' ></Image>
+              <Image src={logo} alt='CoRide' className='w-28 h-20' ></Image>
             </Link>
           </div>
 
